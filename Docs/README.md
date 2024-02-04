@@ -1,6 +1,6 @@
 # Software Engineer Standards
 
-[WebUI Version: 0.7.20](https://github.com/StoicDreams/RustWebUI)
+[WebUI Version: 0.7.24](https://github.com/StoicDreams/RustWebUI)
 
 Website dedicated to sharing best practices, standards, and workflows for Software Engineers to help optimize development efficiency while producing better quality products.
 
