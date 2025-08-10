@@ -2,7 +2,7 @@
 
 [Version: 0.1.3](https://github.com/StoicDreams/SoftwareEngineerStandards)
 
-[WebUI Version: 0.11.2](https://github.com/StoicDreams/WebUI)
+[WebUI Version: 0.11.3](https://github.com/StoicDreams/WebUI)
 
 Website dedicated to sharing best practices, standards, and workflows for Software Engineers to help optimize development efficiency while producing better quality products.
 
