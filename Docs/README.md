@@ -6,9 +6,23 @@
 
 Website dedicated to sharing best practices, standards, and workflows for Software Engineers to help optimize development efficiency while producing better quality products.
 
-## Contributing
+## Ideas
 
-We are not currently accepting contributions to this project. But if you'd like to provide feedback or ask questions, please visit the [Software Engineer Standards website](https://www.softwareengineerstandards.com/home) and drop us a comment through our Feedback module.
+- Provide a comprehensive guide to software engineering standards and practices from the perspective of an individual software engineer.
+
+## Development
+
+### Setup
+
+Before running this project, follow the [Web CLI Setup](https://webui.stoicdeams.com/tools/cli) guide and the [Web UI Rust Tools Setup](https://webui.stoicdreams.com/tools/rust) guide to install the necessary tools and dependencies.
+
+### Running the Project
+
+To run the project locally, you can use the following command:
+
+```terminal:Run the project from the root directory
+./PowerShell/RunLocal.ps1 -port 3210
+```
 
 ## Author
 
