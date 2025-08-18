@@ -14,7 +14,7 @@ Website dedicated to sharing best practices, standards, and workflows for Softwa
 
 ### Setup
 
-Before running this project, follow the [Web CLI Setup](https://webui.stoicdeams.com/tools/cli) guide and the [Web UI Rust Tools Setup](https://webui.stoicdreams.com/tools/rust) guide to install the necessary tools and dependencies.
+Before running this project, follow the [Web CLI Setup](https://webui.stoicdreams.com/tools/cli) guide and the [Web UI Rust Tools Setup](https://webui.stoicdreams.com/tools/rust) guide to install the necessary tools and dependencies.
 
 ### Running the Project
 
