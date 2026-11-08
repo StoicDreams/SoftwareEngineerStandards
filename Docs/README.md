@@ -1,6 +1,6 @@
 # Software Engineer Standards
 
-[Version: 0.1.8](https://github.com/StoicDreams/SoftwareEngineerStandards)
+[Version: 0.1.9](https://github.com/StoicDreams/SoftwareEngineerStandards)
 
 [WebUI](https://github.com/StoicDreams/WebUI)
 
