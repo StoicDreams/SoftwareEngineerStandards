@@ -1,4 +1,4 @@
-<webui-data data-page-title="Software Engineer Standards & Practices for Agile Development and Continuous Delivery" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Software Engineer Standards & Practices for Agile Development and Continuous Delivery" data-page-subtitle="" data-page-description="Personal standards, best practices, and workflows that help software engineers raise their productivity and the quality of their software."></webui-data>
 
 <webui-page-segment elevation="10">
 
