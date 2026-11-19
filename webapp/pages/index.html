@@ -50,22 +50,23 @@
 	<meta name="theme-color" content="#FF2E46" />
 
 	<meta name="author" content="Erik Gassler">
-	<meta name="description" content="Personal standards, best practices, and workflows that help software engineers raise their productivity and the quality of their software.">
+	<meta name="description" content="Personal habits and standards that help software engineers at every level deliver reliable software faster, whatever their team or process.">
 
 	<meta property="og:image" content="https://www.softwareengineerstandards.com/Logo.svg">
 	<meta property="og:title" content="Software Engineer Standards">
 	<meta property="og:url" content="https://www.softwareengineerstandards.com/">
-	<meta property="og:description" content="Personal standards, best practices, and workflows that help software engineers raise their productivity and the quality of their software.">
+	<meta property="og:description" content="Personal habits and standards that help software engineers at every level deliver reliable software faster, whatever their team or process.">
 
 	<meta name="twitter:title" content="Software Engineer Standards">
 	<meta name="twitter:url" content="https://www.softwareengineerstandards.com/">
 	<meta name="twitter:site" content="@stoicdreamsllc">
-	<meta name="twitter:description" content="Personal standards, best practices, and workflows that help software engineers raise their productivity and the quality of their software.">
+	<meta name="twitter:description" content="Personal habits and standards that help software engineers at every level deliver reliable software faster, whatever their team or process.">
 	<meta name="twitter:image" content="https://www.softwareengineerstandards.com/Logo.svg">
 	<link rel="modulepreload" href="https://cdn.myfi.ws/js/mdparse.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/alerts.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/app-config.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/button.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/data.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/drawer.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/feedback.min.js" crossorigin="anonymous" />
@@ -77,24 +78,30 @@
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-segment.min.js" crossorigin="anonymous" />
-	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/quote.min.js" crossorigin="anonymous" />
+	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/sideimage.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-dreams-logo.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/stoic-social-links.min.js" crossorigin="anonymous" />
-	<meta name="webui-prerender" content="c762bdd0f4">
+	<meta name="webui-prerender" content="3c838f7177">
 </head>
 
 <body>
 	<webui-app-config src="appConfig.json"></webui-app-config>
 	<webui-app data-removeclass=".nav|open;.shared|open">
 		<div data-prerendered>
-<p>The standards, best practices, and workflows presented on this website are meant to help software engineers improve their productivity and the quality of their software.</p>
-<p>These standards are focused on the personal practices of the individual software engineer that should be compatible into various solo or team-based workflows, no matter the size of their team or what work tools they utilize.</p>
+<h2>The part of the job you control</h2>
+<p>Most writing about software process is about teams: how to plan the work, review it, and release it. Those choices are often not yours to make. How you work as one engineer always is.</p>
+<p>This site is about that part of the job. These are personal standards: habits for writing, testing, and shipping code that work in any team, any process, and with any tools, whether you are in your first job or working toward principal.</p>
 
 
-<p>We are just getting started with this website. Expect more updates in the near future. In the meantime, visit the <a href="https://www.softwarestandards.dev">Continuous Agile Software Engineering standards</a> website for a more generalized focus on software development standards and practices.</p>
+<p>I'm Erik Gassler. I taught myself to program in 2007, and I've been a software engineer ever since, at companies from a four-person online shop to Microsoft. Today I lead UI work at Opyn Health and build a game engine in Rust.</p>
+<p>The way I work, small and tested changes pushed to production several times a day, was never a rule a team handed me. It was a set of habits I kept from one job to the next. On this site I'm writing those habits down, so you can try them in your own work. The first pages are on their way.</p>
+<p><a href="/about">More about me and this site</a></p>
 
 
-<p>Be sure to visit our <a href="https://www.stoicdreams.com">Stoic Dreams company website</a> to check out our other projects.</p>
+<h2>Start with the book</h2>
+<p>My book, <em>CASE: Continuous Agile Software Engineering</em>, lays out the twelve tenets behind how I work: keep it simple, build in small steps, test continuously, and automate what you repeat.</p>
+<p>Get the book on Amazon</p>
+<p>For how a whole team can work this way, see <a href="https://www.softwarestandards.dev">Continuous Agile Software Engineering</a>, the companion site for the book.</p>
 		</div>
 		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
 			<webui-flex justify="center" slot="header">
@@ -108,7 +115,7 @@
 			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
 				<webui-icon icon="hamburger"></webui-icon>
 			</button>
-			<h1 data-subscribe="page-title:innerHTML">Software Engineer Standards &amp; Practices for Agile Development and Continuous Delivery</h1>
+			<h1 data-subscribe="page-title:innerHTML">Standards for the Individual Software Engineer</h1>
 			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
 			<webui-flex grow></webui-flex>
 			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message">
